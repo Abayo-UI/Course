@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Course advisor</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <style>
+          @media(prefers-reduced-motion:no-preference){
+            *{
+              scroll-behavior: smooth;
+            }
+          }
+        .capital::first-letter{
+          font-size: 3.5rem;
+          color: #33b5e5;
+          float: left;
+          margin-right: 1rem;
+          margin-bottom: 0;
+        }
+        hr{
+          border: none;
+          background-color: #33b5e5;
+          height: 1rem;
+        }
+        .stoic{
+          font-family:Arial, Helvetica, sans-serif;  
+          color:#33b5e5
+        }
+        body{
+          background-color: #000;
+        }
+        .icon{
+          font-size: 2rem;
+          color: blue;
+        }
+        .lowernav{
+          position: sticky;
+          bottom: 0.8rem;
+          opacity: 0.9;
+        }
+        </style>  
+      </head>
+
+    <div class="container-fluid">
+        
+    <body class="text-light">
+
+     <header class="w-100 fixed-top" style="background-color: #33b5e5;">
+
+      <div class="row">
+        <img style="height:4rem;" src="course advisor.png" class="img-responsive col-2 col-lg-1" alt="an image of our logo" >
+        <div class="col-10 col-lg-11" style="height:auto;">
+        <ul class="nav nav-underline d-flex justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </header>
+
+
+     <div class="row" id="Home" >
+     <div class="col-lg-6" style="margin-top: 5rem;">
+     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="new coding 2.jpeg" class="d-block w-100" alt="a person coding" >
+        </div>
+        <div class="carousel-item">
+          <img src="salary1.png" class="d-block w-100" alt="Game dev salary">
+        </div>
+        <div class="carousel-item">
+          <img src="salary2.png" class="d-block w-100" alt="Data science salary">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="col-lg-5  text-justify" style="margin-top: 4.5rem;">
+     <p class="capital">Course advisor is a program that was started by <strong>Leslie Abayo</strong> and has been in operation since 2009.Our main aim is to give our users and clients career advises in the vast and evergrowing technological field.</p>
+     <p>To join the lucky coders in our program, subscribe to our weekly news letter that will be sent to you via email every sunday.</p>
+     <p>Today's open source is not only meant for beginners who want to learn about which field to specialize but also anyone can go through it as you can find some additonal information and various links to free sources to start your journey. Remember that...</p>
+     <div > 
+     <hr>
+      <p class="blockquote">" A journey of a thousand miles begins with a single step."</p>
+     <p class="text-end stoic"><i>Lao Tzu</i></p>
+     <hr>
+     </div>
+  </div>
+</div>
+   <p class="">This article focuses on the main areas of specialisation as a computer scientist, IT graduate or any other related field. Which include any of the following:</p>
+   <ul>
+    <li>Full Stack Development</li>
+    <li>Software Engineering</li>
+    <li>Mobile Development</li>
+    <li>Data Science, AI, ML</li>
+    <li>Game Development</li>
+    <li>Cyber Security</li>
+   </ul>
+
+   <div id="Courses">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card bg-transparent text-light">
+          <img src="data science.webp" class="card-img-top" alt="data science">
+          <div class="card-body">
+            <h5 class="card-title">Data science</h5>
+            <p class="card-text">Data is all around the world and data scientists are in high demand. Find out why here!</p>
+            <a class="card-link btn btn-info" href="#Data-science">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-transparent text-light ">
+          <img src="software engineering 1.jpeg" class="card-img-top" alt="an image of software engineering">
+          <div class="card-body">
+            <h5 class="card-title">S/w Engineering</h5>
+            <p class="card-text">S/w engineering is a general umbrella for full stack developers and mobile developers.</p>
+            <a class="card-link btn btn-info" href="#software-engineering">Learn More</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-transparent text-light ">
+          <img src="new game development.jpeg" class="card-img-top" alt="game development">
+          <div class="card-body">
+            <h5 class="card-title">Game development</h5>
+            <p class="card-text">If you are a game developer enthusiast, go ahead and click the button to learn more about it and the necessary skills required.</p>
+            <a class="card-link btn btn-info" href="#game-development">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-transparent text-light">
+          <img src="app development.jpeg" class="card-img-top" alt="app developer">
+          <div class="card-body ">
+            <h5 class="card-title">App Development</h5>
+            <p class="card-text">Mobile development is also another promising career path</p>
+            <a class="card-link btn btn-info" href="#app-development">Learn More</a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="col">
+        <div class="card bg-transparent text-light ">
+          <img src="cyber sec.jpg" class="card-img-top" alt="cyber security">
+          <div class="card-body">
+            <h5 class="card-title">Cyber Security</h5>
+            <p class="card-text">Are you aware that cyber security is not all about hacking and that there are usually cyber attacks every 11 minutes in the world, as reported by CISA? Click here to learn more about this promising career path.</p>
+            <a class="card-link btn btn-info" href="#cyber-security">Learn More</a> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-transparent text-light ">
+          <img src="full stack developer.jpg" class="card-img-top" alt="full stack developer image">
+          <div class="card-body">
+            <h5 class="card-title">Full Stack Development</h5>
+            <p class="card-text">Want to become a FSD? Take a look at what it entails.</p>
+            <a class="card-link btn btn-info" href="#FSD">Learn More</a> 
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+   <div id="Data-science1">
+   <div id="Data-science" style="padding: 3.5rem 0;">
+    <div class="row">
+    <div class="col-lg-6">
+    <h3>What is data science?</h3>
+    <p>Data science is about collecting data and analyzing digital data, extracting and obtaining insights, making informed decisions based on that data and turning it into meaningful and valuable action.</p>
+    </div>
+
+    <div class="col-lg-6">
+    <h3>What Data Scientists do.</h3>
+    <p>Data Scientists are responsible for collecting, cleaning, modelling, visualizing and interpreting data.</p>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">
+    <h3>Data Science Majors</h3>
+    <p>They Include;</p>
+    <ul>
+      <li>Machine Learning Engineering</li>
+      <li>Database Adminstration</li>
+      <li>Data Visualisation</li>
+      <li>Business Analysis</li>
+      <li>Data analytics</li>
+    </ul>
+    </div>
+
+    <div class="col-lg-6">
+    <h3>Skills required.</h3>
+    <p>The skills required are ;</p>
+    <ul>
+    <li>Good grasp and foundational knowledge of Maths basics : Calculus, Linear Algebra</li> 
+    <li>Algorithms : Linear and Logistic regression, random forest etc</li>
+    <li>Computer Programming : Python, R, SQL, Haskell</li>
+    <li>Probability and Statistics.</li>
+    <br>
+    </ul>
+    </div>
+    </div>
+
+    <h3>Salary</h3>
+    <p>According to the U.S.Bureau of labor and statistics data scientists earn a <strong>MEDIAN</strong> annual salary of <strong>$101,000</strong> as of 2021. We've seen companies such as Netflix advertising for an <a href="https://www.youtube.com/watch?v=qfP5obymg0w" target="_blank">artificial intelligence expert</a> vacancy with an annual salary of $900,000. With the rise of LLMs and artificially intelligent systems, the anticipated change for the period of 2021-2031 is 36%.But it is also a challenging and tough field which requires learners to remain determined and focussed during the course.<br>
+    Follow this link to understand the finer details of being a data scientist. <a href="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/" target="_blank">See more</a></p>
+     
+   </div>
+   </div>
+
+    <div id="software-engineering1">
+    <div id="software-engineering" style="padding: 3.5rem 0;">
+     <div class="row">
+
+      <div class="col-lg-6">
+        <h3>What is Software Engineering?</h3>
+        <p>Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.</p>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>What Software Engineers Do?</h3>
+        <p>Software engineers are responsible for designing, building, testing, deploying, optimizing, and maintaining complex and large-scale applications, software systems, and tools for a variety of platforms.</p>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Software Engineering Majors.</h3>
+        <p>Software Engineering is actually a generalised term used to refer to FSD and App developers.So its majors are two;</p>
+        <ul>
+          <li>Full stack Development</li>
+          <li>Mobile Development.</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Skills Required.</h3>
+        <p>If we were to look at all the skills required in both majors the list will be long but to look at each individual field, feel free to navigate to that particular section in our site.</p>
+        <p>In general here are languages that are mostly required.</p>
+        <ul class="d-flex flex-row justify-content-between" style="height: auto;">
+          <li>Javascript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>C#</li>
+        </ul>
+      </div>
+     </div>
+
+     <h3>Salary</h3>
+     <p>According to the U.S. Bureau of labor statistics, software engineers earned a <strong>MEDIAN</strong> annual salary of <strong>$109,020</strong> in 2021. But remeber this salary varies with a number of factors such as location, experience etc
+      <br>Here are tips to get hired as a  <a target="_blank" href="https://www.freecodecamp.org/news/7-key-steps-to-getting-your-first-software-engineering-job-6ef80543cad9/">s/w engineer.</a>
+     </p>
+     <p>The anticipated change for 2021-2031 is a 25% growth, which is much faster than average.</p>
+    </div>
+    </div>
+
+    <div id="game-development1">
+    <div>
+      <div class="row" id="game-development" style="padding: 3.5rem 0;">
+        <div class="col-lg-6">
+          <h3>What is Game development ?</h3>
+          <p>Game Development is the art of creating games and describes the design, development and release of a game. It may involve concept generation, design, build, test and release. While you create a game, it is important to think about the game mechanics, rewards, player engagement and level design.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>What game developers do </h3>
+          <p>Game developers are professionals who create video games. They are involved in various stages of the game development process, including designing, programming, and testing</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>Game Development Majors.</h3>
+          <p>Game development might be different from the other field that we've looked at so far, as its majors are usually not well outlined. However, the following can be considered as some of its majors ;</p>
+          <ul>
+            <li>Game Testing/ QA</li>
+            <li>Game Audio</li>
+            <li>Computer Animation</li>
+            <li>Game Design</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>Skills Required.</h3>
+          <p>These include;</p>
+          <ul>
+            <li>Unity 3D</li>
+            <li>Unreal</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C#</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Salary</h3>
+      <p>According to the 2021 Game Developer Salary Survey conducted by the Game Developers Conference (GDC), the <strong>MEDIAN</strong> annual salary for game developers in the United States was <STRONG>$95,000.</STRONG></p>
+      <p>Note that these are  not the only things that you need to know about game development. There are still alot of information that you should know as an aspiring Game Developer. Which is well outlined <a href="https://www.freecodecamp.org/news/game-development-for-beginners-unity-course/" target="_blank">here</a></p>
+    </div>
+    </div>
+
+    <div id="app-development1">
+    <div>
+      <div class="row" style="padding: 3.5rem 0;" id="app-development">
+        <div class="col-lg-6">
+        <h3>What Is App development ?</h3>
+        <p>App/Mobile/Android development refers to the process of creating software applications, commonly known as apps, that run on mobile devices such as smartphones, tablets, or wearable devices. It involves designing, building, testing, and deploying applications for specific operating systems like iOS (Apple) or Android (Google).Most people begin as web developers then with time venture into app development.</p>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>What App developers do.</h3>
+        <p>App developers simply build applications (apps) in a variety of devices. As mentioned earlier, they're  also considered as software engineers .</p>
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col-lg-6">
+        <h3>App development Majors.</h3>
+        <p>They are usually categorised into 3;</p>
+        <ul>
+          <li>Those who specialise in Android app</li>
+          <li>Those who specialise in IOS apps</li>
+          <li>Hybrid of both</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Skills Required.</h3>
+        <p>They include;</p>
+        <ul>
+          <li>React Native</li>
+          <li>Flutter</li>
+          <li>Kotlin</li>
+          <li>Swift</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      </div>
+ 
+      <h3>Salary</h3>
+      <p>According to various sources, the <strong>MEDIAN</strong> annual salary for app developers in the United States can range from around <strong>$100,000 to $120,000.</strong>
+      <a href="https://www.freecodecamp.org/news/search?query=app%20development" target="_blank">Here is everything</a> you need to know about app development and also how to build a <strong>twitter clone</strong></p>
+      </div>
+    </div>
+
+    <div id="cyber-security1">
+    <div style="padding-bottom: 3.5rem; ">
+      <div class="row" id="cyber-security" style="padding-top: 3.5rem;">
+        <div class="col-lg-6">
+          <h3>What is Cyber Security ?</h3>
+          <p>It is the protection of computer systems and networks from attacks by malicious actors that may result in unauthorized information disclosure, theft of, or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>What Information Security Analysts do.</h3>
+          <p>Information Security analysts are responsible for ensuring the security of the organization's sensitive data, networks, and computer systems.Essentially, they protect an organization from a cyber-attack.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Cyber Mecurity Majors.</h3>
+          <p>They include the following.</p>
+          <div class="d-flex flex-row">
+            <div>
+              <ul>
+                <li>Security Analyst</li>
+                <li>Security Engineer</li>
+                <li>Incident Responder</li>
+                <li>Penetration Testers</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Cryptographer</li>
+                <li>Security Architect</li>
+                <li>Forensic Analyst</li> 
+                <li>Ethical Hackers</li>
+                <li>Security Operations Center (SOC) Analyst</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+         
+        <div class="col-lg-6">
+          <h3>Skills Required.</h3>
+          <p>They include the following;</p>
+          <ul>
+            <li>Social Engineering</li>
+            <li>Networking</li>
+            <li>Python</li>
+            <li>Linux</li>
+            <li>C++</li>
+            <li>and more...</li>
+          </ul>
+        </div>
+
+        <h3>Salary</h3>
+        <p>According to the U.S. Bureau of labor statistics, information security analysts earned a <strong>MEDIAN</strong> annual salary of <strong>$102,600</strong> in 2021.The anticipated change for 2021-2031 is a 35% growth, which is much faster than average. Here  is everything you will need to know about <a href="https://www.freecodecamp.org/news/search?query=cyber%20security" target="_blank">cyber security</a> and you will also find a link that tells us what we learnt from Money Heist about cyber security.</p>
+      </div>
+    </div>
+    </div>
+
+    <div id="FSD1" style="padding-bottom: 3.5rem;">
+      <div class="row" id="FSD" style="padding-top: 3.5rem;">
+        <div class="col-lg-6">
+          <h3>What is Full Stack Development ?</h3>
+          <p>Full stack development refers to the practice of working on both the front-end (client-side) and back-end (server-side) aspects of web application development. A full stack developer is proficient in multiple layers of software development, including the user interface (UI), server-side logic, and database management.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>What Full Stack developers do.</h3>
+          <p>Full Stack developers are responsible for designing, creating, and maintaining websites. They are responsible for creating the layout of websites, fixing bugs, and ensuring they are fully functional, responsive, and have fast load times.Their work will vary depending on whether they specialize in the frontend or backend of web applications or if they are fullstack web developers.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Full Stack Development Majors.</h3>
+          <p>They include;</p>
+          <ul>
+            <li>Full Stack Developer</li>
+            <li>Front End Developer</li>
+            <li>Back End Developer</li>
+            <li>DevOps Engineer</li>
+            <li>UI/UX Designer</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <h3>Skills Required</h3>
+          <p>Nothing much to say because all the required skills are already listed in our image above. The skills are so many but we'll only mention a few.</p>
+          <ul>
+            <li>HTML, CSS, JS (Plus various frameworks in each)</li>
+            <li>Python, Php, Ruby, Nodejs, java</li>
+            <li>Relational Database, NoSQL database ...</li>
+            </ul>
+            <p>Refer to the image in this page with the title full stack developer as the list is long but you don't need to know all. Just a few.</p>
+        </div>
+      </div>
+
+      <h3>Salary</h3>
+      <p>In some situations Full stack developers get good pay as they know both the front end and back end of the web applications. And there are also situations where Backend engineers earn a good pay than full stack developers. It depends on several factors but it is a good choice. It is always good to be a full stack developer, but specialise On one side because when big tech companies  lets say like Google hire you, they hire you as a either a frontend dev or backend dev, not a full stack developer as specialisation is a good principal. But it is a personal decision.Here you'll find anything you want to know <a href="https://www.freecodecamp.org/news/search?query=full%20stack%20dev" target="_blank">about FSD.</a></p>
+    </div>
+    </div>
+
+   <div class="container py-2 d-flex flex-row justify-content-evenly rounded-5 lowernav" style="width: 20rem; height: auto; background-color: #33b5e5;">
+    <a href="#game-development1"><i class="bi bi-controller icon"></i></a>
+    <a href="#cyber-security1"><i class="bi bi-shield-check icon"></i></a>
+    <a href="#app-development1"><i class="bi bi-phone-fill icon"></i></a>
+    <a href="#Data-science1"><i class="bi bi-robot icon"></i></a>
+    <a href="#software-engineering1"><i class="bi bi-code-slash icon"></i></a>
+    <a href="#FSD1"><i class="bi bi-pc-display-horizontal icon"></i></a>
+   </div>
+
+   <footer id="Contacts" class="m-0 row" style="height: auto; position: relative; bottom: -20%; background-color: lightgrey; color: #000; width: 100%;">
+    <div class="col-lg-4 col-sm-12">
+      <i class="bi bi-geo-alt-fill mb-3"></i> <p class="d-inline">14626 Rochester NY, USA</p>
+      <br>
+      <i class="bi bi-telephone-fill mb-3"></i> <p class="d-inline">+646 736 5073</p>
+      <br>
+      <i class="bi bi-envelope-at-fill mb-3"></i> <p class="d-inline">les@gmail.com</p>
+      <br>
+      <i class="bi bi-whatsapp mb-3"></i> <p class="d-inline">074259***2</p>
+      <br>
+      <i class="bi bi-reddit mb-2"></i> <p class="d-inline"> Follow us</p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+      <i class="bi bi-instagram"></i> <p class="d-inline"> Follow us on our IG page</p>
+      <br>
+      <i class="bi bi-threads"></i> <p class="d-inline"> Follow us on our threads page</p>
+      <br>
+      <i class="bi bi-youtube"></i> <p class="d-inline"> Subscribe to our channel</p>
+      <br>
+      <i class="bi bi-telegram"></i> <p class="d-inline"> Join our channel</p>
+      <br>
+      <i class="bi bi-facebook"></i> <p class="d-inline"> Follow us on facebook</p>
+    </div>
+    <div class="col-lg-4 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+      <div class="bg-dark w-100 mt-3" style="height: 0.2rem; "></div>
+      <h4 class="mb-0 mt-2">Designed By Leslie Abayo</h4>
+      <h4>&#169 2023</h4>
+    </div>
+  </footer>
+   
+</body>
+</div>
+</html>
